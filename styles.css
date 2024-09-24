@@ -1,0 +1,81 @@
+#body {
+    background-color: rgb(41, 157, 192);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.header {
+text-align:center;}
+
+
+#h1 {
+    color: rgb(0, 7, 9);
+    background-color: rgb(218, 226, 234);
+    display: inline-block;
+    padding: 0 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid black;
+}
+
+#h2 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 226, 234);
+    display: inline;
+    padding: 0 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    border: 1px solid black;
+    position: relative;
+    right: 100px;
+}
+
+#h3 {
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 226, 234);
+    display: inline;
+    padding: 0 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    border: 1px solid black; 
+    position: relative;
+    left: 140px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;    
+}
+
+.table-wrapper {
+    background-color: white;
+    padding: 3px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.table {
+    color: black;   
+    background-color: white;
+    border: 1px solid rgb(2, 2, 9);
+    border-collapse: collapse; 
+    width: auto;
+    table-layout: fixed;
+    text-align: left;
+}
+.table th {
+    color: rgb(46, 17, 17);
+    background-color: rgb(218, 226, 234);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.table td {
+    color: rgb(1, 11, 16);
+    background-color: skyblue;
+    border: 1px solid black;
+    padding: 5px;
+}
